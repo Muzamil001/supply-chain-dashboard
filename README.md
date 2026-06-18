@@ -34,5 +34,8 @@ Excel — XLOOKUP, FILTER, UNIQUE, SORT, AVERAGEIF, SUMIF, COUNTIF, Nested IF, D
 ## Certificate
 Excel Skills for Business Specialization — Macquarie University (Coursera) — June 2026
 
+## Dataset
+Source: Kaggle — Supply Chain Dataset
+Link: https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 ## Connect
 [LinkedIn](https://linkedin.com/in/muzamilsha007)
