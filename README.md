@@ -47,3 +47,39 @@ Production-grade Excel dashboard with 6 sheets:
 - ✅ Average defect rate: 2.28%
 
 ## 🏗️ Architecture
+Each sheet serves a stakeholder:
+- **Raw Data** — Source of truth (100 SKUs, 24 columns)
+- **Data Dictionary** — Engineers + AI Agents (LLM-ready descriptions)
+- **Analysis** — Analysts (XLOOKUP, FILTER, AVERAGEIF, dynamic formulas)
+- **Dashboard** — Executives (KPI cards, stock alerts, supplier ranking)
+- **Documentation** — Stakeholders (business context, CEO Q&A)
+- **Business Model** — Everyone (supply chain flow diagrams)
+
+## 🛠️ Skills Demonstrated
+Excel — XLOOKUP, FILTER, UNIQUE, SORT, AVERAGEIF, SUMIF, COUNTIF, Nested IF, Dynamic Arrays, Conditional Formatting, Data Validation, Pivot-ready Tables
+
+## 📚 What I Learned
+1. **Business context > formulas** — CEO Q&A framing changed how I designed the dashboard
+2. **Data Dictionary is a feature** — doubles as AI agent reference (LLM-ready)
+3. **Cross-column validation** — Alert triggers that compare values across columns (e.g. Revenue < Price × Units Sold)
+4. **Dynamic arrays** — FILTER + UNIQUE + SORT = live dashboard with zero manual updates
+5. **Reorder logic needs business context** — Lead time buffer matters, not just threshold
+
+## ⚠️ Limitations
+- Single time-point — no trend analysis possible
+- 100 SKUs only — real D2C companies have 1000+ SKUs
+- No customer segmentation beyond basic demographics
+- Defect rates are post-manufacturing (no upstream quality data)
+
+## 🚀 Next Steps (Roadmap)
+- **Phase A (current):** Excel + Power Query foundation ✅
+- **Phase B (next):** dbt + Snowflake/BigQuery for scalable pipelines
+- **Phase C:** LangGraph + CrewAI for autonomous data agents
+- **Phase C.5:** AWS Security + Compliance for finance sector
+- **Phase D:** Productized consulting for D2C brands
+
+## 🎓 Certificate
+Excel Skills for Business Specialization — Macquarie University (Coursera) — June 2026
+
+## 🔗 Connect
+[LinkedIn](https://linkedin.com/in/muzamilsha007)
