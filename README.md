@@ -18,7 +18,7 @@ Production-grade Excel dashboard with 6 sheets:
 
 ## 📊 Dataset
 - **Source:** Kaggle — DataCo Smart Supply Chain Dataset
-- **Link:** https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
+- **Link:** https://www.kaggle.com/datasets/amirmotefaker/supply-chain-dataset/data
 - **Rows:** 100 SKUs (real anonymized D2C beauty data)
 - **Columns:** 24 (price, inventory, suppliers, shipping, defects, costs)
 
