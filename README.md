@@ -2,7 +2,7 @@
 Supply Chain Performance Dashboard built in Excel — Data Dictionary, Analysis, and Interactive Dashboard using XLOOKUP, FILTER, AVERAGEIF, and Dynamic Arrays
 
 # Supply Chain Performance Dashboard
-![Supply Chain Dashboard](screenshots/dashboard.png)
+![supply-chain-dashboard](screenshots/dashboard.png)
 
 ## Project Overview
 An Excel-based Intelligence Dashboard built on real supply chain data from a D2C Beauty Manufacturer (India). This project analyzes 100 SKUs across 3 product categories (Haircare, Skincare, Cosmetics) to answer critical business questions.
