@@ -1,42 +1,49 @@
-# supply-chain-dashboard
-Supply Chain Performance Dashboard built in Excel — Data Dictionary, Analysis, and Interactive Dashboard using XLOOKUP, FILTER, AVERAGEIF, and Dynamic Arrays
-
 # Supply Chain Performance Dashboard
-![Supply Chain Business Model](screenshots/1.Business_Map_No_Results.png)
+> Excel-based Intelligence Dashboard | D2C Beauty Manufacturer | Phase A — Data Engineering Journey
 
-## Project Overview
-An Excel-based Intelligence Dashboard built on real supply chain data from a D2C Beauty Manufacturer (India). This project analyzes 100 SKUs across 3 product categories (Haircare, Skincare, Cosmetics) to answer critical business questions.
+## 🎯 Business Problem
+A D2C beauty manufacturer needs visibility into:
+1. Which products need immediate reorder? (Stock Risk)
+2. Which supplier has the lowest defect rate? (Quality)
+3. Which carrier delivers fastest at lowest cost? (Logistics)
+4. Which product category generates most revenue? (Strategy)
 
-## Business Problems Solved
-1. **Stock Risk** — Which products need immediate reordering?
-2. **Supplier Quality** — Which supplier has the lowest defect rate?
-3. **Shipping Efficiency** — Which carrier delivers fastest at lowest cost?
-4. **Revenue Analysis** — Which product category generates the most revenue?
+## 💡 Solution
+Production-grade Excel dashboard with 6 sheets:
+- Data Dictionary (LLM-ready documentation)
+- Analysis (formulas, aggregations, lookups)
+- Dashboard (CEO + Manager level views)
+- Documentation (business context, CEO Q&A)
+- Business Model (supply chain flow diagrams)
 
-## What's Inside
-| Sheet | Purpose |
-|---|---|
-| Raw Data | Original dataset (100 SKUs, 24 columns) |
-| Data Dictionary | Column definitions, business rules, LLM-ready documentation |
-| Analysis | SUMIF, AVERAGEIF, XLOOKUP, FILTER, UNIQUE calculations |
-| Dashboard | KPI cards + 4 interactive tables |
-| Documentation | Business overview, CEO Q&A, navigation guide |
-| Business Model | Supply chain flow diagrams |
+## 📊 Dataset
+- **Source:** Kaggle — DataCo Smart Supply Chain Dataset
+- **Link:** https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
+- **Rows:** 100 SKUs (real anonymized D2C beauty data)
+- **Columns:** 24 (price, inventory, suppliers, shipping, defects, costs)
 
-## Key Findings
-- 17 of 100 SKUs flagged for reorder
-- Supplier 1 ranked Best (1.80% defect rate)
-- Carrier B fastest and cheapest (5.3 days, $5.51 avg)
-- Skincare — highest revenue ($241,628)
+## 🖼️ Dashboard Preview
 
-## Skills Demonstrated
-Excel — XLOOKUP, FILTER, UNIQUE, SORT, AVERAGEIF, SUMIF, COUNTIF, Nested IF, Dynamic Arrays, Conditional Formatting, Data Validation, Pivot-ready Tables
+### Business Flow (Questions Only)
+![Business Map](screenshots/1.Business_Map_No_Results.png)
 
-## Certificate
-Excel Skills for Business Specialization — Macquarie University (Coursera) — June 2026
+### Supplier Network Map
+![Supplier Network](screenshots/2.supply_chain_network.png)
 
-## Dataset
-Source: Kaggle — Supply Chain Dataset
-Link: https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
-## Connect
-[LinkedIn](https://linkedin.com/in/muzamilsha007)
+### Analysis Sheet
+![Analysis](screenshots/3.Analysis.png)
+
+### Dashboard
+![Dashboard](screenshots/4.Dashboard.png)
+
+### Business Model with Results
+![Business Model Results](screenshots/5.Business_Model.png)
+
+## 📈 Key Findings
+- ✅ 17 of 100 SKUs need immediate reorder (stock ≤ 10 units)
+- ✅ Skincare is top revenue generator ($241,628 — 41.8% of total)
+- ✅ Supplier 1 has lowest defect rate (1.80% — Best)
+- ✅ Carrier B is fastest AND cheapest (5.3 days, $5.51/unit)
+- ✅ Average defect rate: 2.28%
+
+## 🏗️ Architecture
