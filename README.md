@@ -72,14 +72,7 @@ Excel — XLOOKUP, FILTER, UNIQUE, SORT, AVERAGEIF, SUMIF, COUNTIF, Nested IF, D
 - Defect rates are post-manufacturing (no upstream quality data)
 
 ## 🚀 Next Steps (Roadmap)
-- **Phase A (current):** Excel + Power Query foundation ✅
-- **Phase B (next):** dbt + Snowflake/BigQuery for scalable pipelines
-- **Phase C:** LangGraph + CrewAI for autonomous data agents
-- **Phase C.5:** AWS Security + Compliance for finance sector
-- **Phase D:** Productized consulting for D2C brands
-
-## 🎓 Certificate
-Excel Skills for Business Specialization — Macquarie University (Coursera) — June 2026
+- **Next Project :** Excel + Power Query foundation ✅
 
 ## 🔗 Connect
 [LinkedIn](https://linkedin.com/in/muzamilsha007)
